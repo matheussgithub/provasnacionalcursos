@@ -73,7 +73,8 @@ a{
 
 a:hover{
     color: #000000;
-    
+    transition-delay: 0.1s;
+    transition: 200ms linear;
 }
 
 h2{
