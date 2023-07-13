@@ -1,8 +1,13 @@
 @charset "UTF-8";
 
-
+img{
+    width:280px ;
+    height:125px ;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
 h1{
-    background-color: rgb(37, 37, 168);
+    background-color:#00457C;
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 5px;
@@ -11,12 +16,15 @@ h1{
     margin:auto;
     margin-bottom: -50px;
     border-radius: 8px 8px 0px 0px;
+    box-shadow: 5px 5px 5px #0000005b;
+    
 }
 body{
-    color: black;
+    color: #006634;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     text-align: center;
+    
     
     
 
@@ -25,29 +33,31 @@ body{
 #links{
     
    
-    background-color: rgb(0, 0, 0);
-    font-size: 25px ;
+    background-color: #006634;
+    font-size: 20px ;
     padding: 10px;
     width: 500px;
-    height: 500px;
+    height: 450px;
     margin:-0px;
     border-radius: 0px 0px 0px 8px;
     list-style-position: inside;
     display: inline-flex;
     flex-direction: column;
+    box-shadow: 5px 5px 5px #0000005b;
 }
 #links2{
-    background-color: rgb(0, 0, 0);
-    font-size: 25px ;
+    background-color: #006634;
+    font-size: 20px ;
     padding: 10px;
     width: 500px;
-    height: 500px;
+    height: 450px;
     margin-top:50px;
     margin-left: -4px;
     border-radius: 0px 0px 8px 0px;
     list-style-position: inside;
     display: inline-flex;
     flex-direction: column;
+    box-shadow: 5px 5px 5px #0000005b;
 
 }
 div > p{
@@ -62,7 +72,8 @@ a{
 }
 
 a:hover{
-    color: rgb(58, 95, 197);
+    color: #000000;
+    
 }
 
 h2{
